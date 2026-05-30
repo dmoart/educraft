@@ -152,9 +152,15 @@ EduCraft es una skill para [OpenCode](https://opencode.ai), el asistente de codi
 
 ## Acerca del autor
 
-**Daniel Morisio** es docente de innovación educativa en Uruguay, especializado en robótica, programación, diseño 3D y espacios maker. Creador de programas educativos bajo el Marco Curricular Nacional (MCN 2022) y formador de docentes en tecnología educativa.
+**Daniel Morisio** es docente de innovación educativa en Uruguay, especializado en el diseño de experiencias de aprendizaje que integran tecnología, creatividad, ciencia y cultura maker. Su trabajo se centra en transformar ideas en proyectos educativos reales, vinculando robótica, programación, diseño 3D, inteligencia artificial, pensamiento computacional y tecnologías espaciales.
 
-Su enfoque combina **Aprendizaje Basado en Proyectos**, **pensamiento computacional** y **cultura maker** para transformar la experiencia de aprendizaje en el aula.
+Desarrolla propuestas alineadas al Marco Curricular Nacional (MCN 2022), con un enfoque basado en Aprendizaje Basado en Proyectos, resolución de problemas, experimentación y construcción de soluciones funcionales. A través de sus proyectos, promueve que los estudiantes investiguen, diseñen, construyan, prueben y mejoren sus propias creaciones, fortaleciendo habilidades vinculadas a la creatividad, el trabajo colaborativo, la comunicación, la autonomía y la innovación.
+
+Desde su perfil como referente en educación tecnológica y aeroespacial, ha sido convocado por el Centro de Investigación y Divulgación Aeroespacial —CIDAE— por su trabajo en propuestas educativas vinculadas a ciencias del espacio, cohetería experimental, sondas meteorológicas, CubeSat y tecnologías aplicadas al aprendizaje. Además, es miembro de ACEMU, la Asociación Uruguaya de Cohetería Experimental.
+
+Entre sus logros más destacados se encuentra el lanzamiento, desde el centro de Montevideo, de una sonda meteorológica desarrollada por estudiantes de secundaria, considerada la primera experiencia de este tipo en Sudamérica dentro del contexto educativo. El proyecto constituyó un hito por su complejidad técnica, logística y operativa, integrando cálculos de trayectoria, diseño, construcción, lanzamiento, seguimiento, recuperación y validación de funcionamiento real.
+
+Su perfil combina innovación educativa, conocimiento técnico y capacidad de gestión de proyectos, con una mirada orientada a generar experiencias significativas donde la tecnología no sea solo una herramienta, sino un medio para aprender, crear, resolver problemas y producir impacto educativo.
 
 - GitHub: [@dmoart](https://github.com/dmoart)
 
