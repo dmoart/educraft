@@ -15,12 +15,11 @@ opencode --version
 ### 2. Instalar EduCraft
 
 ```bash
-# Copiar la skill al directorio de skills de OpenCode
-# Si usás ~/.claude/skills/ (recomendado)
-copy skills\educraft %USERPROFILE%\.claude\skills\educraft\
+# Clonar el repositorio y copiar la skill
+git clone https://github.com/dmoart/educraft.git
 
-# Si usás ~/.config/opencode/skills/
-copy skills\educraft %USERPROFILE%\.config\opencode\skills\educraft\
+# Copiar al directorio de skills de OpenCode
+copy educraft\skills\educraft %USERPROFILE%\.claude\skills\educraft\
 ```
 
 ## Uso

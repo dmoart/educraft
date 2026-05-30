@@ -1,11 +1,18 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="EduCraft Banner">
+</p>
 
-> **EduCraft** es una skill para [OpenCode](https://opencode.ai) que acelera la creación de proyectos educativos STEAM con inteligencia artificial. Basada en ABP (Aprendizaje Basado en Proyectos) y alineada al Marco Curricular Nacional (MCN 2022), te permite generar programas, guías docentes, memorias técnicas, presupuestos y diseños de espacios maker en segundos.
+<p align="center">
+  <strong>EduCraft</strong> es una skill para <a href="https://opencode.ai">OpenCode</a> que acelera la creación de proyectos educativos STEAM con inteligencia artificial.
+  Basada en <strong>ABP</strong> (Aprendizaje Basado en Proyectos) y alineada al <strong>Marco Curricular Nacional (MCN 2022)</strong>,
+  genera programas, guías docentes, memorias técnicas, presupuestos y diseños de espacios maker en segundos.
+</p>
 
 ---
 
 ## ¿Por qué EduCraft?
 
-Cada vez que arrancás un proyecto educativo nuevo —un taller de robótica, una estación de cuidado de plantas con Micro:bit, un curso de diseño 3D— terminás escribiendo la misma estructura: justificación, objetivos, metodología, evaluación, rúbricas, presupuesto, cronograma. EduCraft automatiza esa base para que te concentres en lo que importa: la calidad pedagógica y la creatividad de tus propuestas.
+Cada vez que arrancás un proyecto educativo nuevo —un taller de robótica, una estación de cuidado de plantas con Micro:bit, un curso de diseño 3D— terminás escribiendo la misma estructura: justificación, objetivos, metodología, evaluación, rúbricas, presupuesto, cronograma. EduCraft automatiza esa base para que te concentres en lo que importa: la **calidad pedagógica** y la **creatividad** de tus propuestas.
 
 Usado por docentes de educación básica integrada, formación profesional y espacios maker en Uruguay.
 
@@ -13,7 +20,7 @@ Usado por docentes de educación básica integrada, formación profesional y esp
 
 ## Cómo funciona
 
-EduCraft se instala como una skill de OpenCode (el asistente de codificación con IA de código abierto). Una vez instalada, simplemente escribís el tipo de documento que necesitás y la IA lo genera completo con la estructura, el tono y los criterios de tu metodología.
+EduCraft se instala como una skill de OpenCode. Una vez instalada, escribís el tipo de documento que necesitás y la IA lo genera completo con tu metodología.
 
 ```
 /educraft programa         →  Programa educativo completo (tramo, grados, duración)
@@ -24,12 +31,7 @@ EduCraft se instala como una skill de OpenCode (el asistente de codificación co
 /educraft makerlab         →  Diseño e implementación de espacios de fabricación digital
 ```
 
-Cada documento incluye:
-- **Objetivos generales y específicos**
-- **Metodología activa** (ABP, aprendizaje colaborativo, descubrimiento)
-- **Asignaturas transversales** con conexiones interdisciplinarias
-- **Evaluación formativa y sumativa** con rúbricas por dimensión
-- **Planificación temporal** y recursos necesarios
+Cada documento incluye objetivos, metodología activa, asignaturas transversales, evaluación con rúbrica, planificación temporal y recursos.
 
 ---
 
@@ -37,18 +39,19 @@ Cada documento incluye:
 
 ```
 educraft/
+├── assets/
+│   └── banner.svg                # Banner del proyecto
 ├── skills/
 │   └── educraft/
-│       └── SKILL.md          # La skill instalable en OpenCode
+│       └── SKILL.md              # La skill instalable en OpenCode
 ├── ejemplos/
-│   ├── programa-robotica.md   # Programa: Robótica & Videojuegos (8° EBI)
-│   ├── proyecto-maceta.md     # Proyecto ABP: Estación de cuidado de plantas
-│   ├── presupuesto-maker.md   # Presupuesto: materiales para makerlab
-│   └── guia-makerlab.md       # Guía: diseño de espacio maker educativo
+│   ├── programa-robotica.md      # Programa: Robótica & Videojuegos (8° EBI)
+│   ├── proyecto-maceta.md        # Proyecto ABP: Estación de cuidado de plantas
+│   └── guia-makerlab.md          # Guía: diseño de espacio maker educativo
 ├── docs/
-│   └── guia-rapida.md         # Instalación y uso en 5 minutos
+│   └── guia-rapida.md            # Instalación y uso en 5 minutos
 ├── referencias/
-│   └── fuentes.md             # Documentos de referencia y metodología
+│   └── fuentes.md                # Documentos de referencia y metodología
 ├── LICENSE
 └── README.md
 ```
@@ -65,7 +68,7 @@ Seguí la [guía oficial de instalación](https://opencode.ai/docs) para tu sist
 
 ```bash
 # Opción A — Clonar el repositorio
-git clone https://github.com/TU_USUARIO/educraft.git
+git clone https://github.com/dmoart/educraft.git
 copy educraft\skills\educraft %USERPROFILE%\.claude\skills\educraft\
 
 # Opción B — Manual
@@ -139,9 +142,21 @@ El documento completo generado incluye: introducción, justificación, objetivos
 
 EduCraft es una skill para [OpenCode](https://opencode.ai), el asistente de codificación con IA de código abierto que soporta más de 75 proveedores de LLM (Anthropic, OpenAI, Google, Mistral, Ollama, etc.).
 
-Estructura | `SKILL.md` con frontmatter YAML
-Licencia | MIT
-Hecho con | OpenCode, Markdown, pedagogía STEAM
+| | |
+|---|---|
+| Estructura | `SKILL.md` con frontmatter YAML |
+| Licencia | MIT |
+| Hecho con | OpenCode, Markdown, pedagogía STEAM |
+
+---
+
+## Acerca del autor
+
+**Daniel Morisio** es docente de innovación educativa en Uruguay, especializado en robótica, programación, diseño 3D y espacios maker. Creador de programas educativos bajo el Marco Curricular Nacional (MCN 2022) y formador de docentes en tecnología educativa.
+
+Su enfoque combina **Aprendizaje Basado en Proyectos**, **pensamiento computacional** y **cultura maker** para transformar la experiencia de aprendizaje en el aula.
+
+- GitHub: [@dmoart](https://github.com/dmoart)
 
 ---
 
