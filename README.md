@@ -46,6 +46,7 @@ educraft/
 │       └── SKILL.md              # La skill instalable en OpenCode
 ├── ejemplos/
 │   ├── programa-robotica.md      # Programa: Robótica & Videojuegos (8° EBI)
+│   ├── programa-microbit-completo.md  # [MEGA] Programa Micro:bit completo con todo
 │   ├── proyecto-maceta.md        # Proyecto ABP: Estación de cuidado de plantas
 │   └── guia-makerlab.md          # Guía: diseño de espacio maker educativo
 ├── docs/
