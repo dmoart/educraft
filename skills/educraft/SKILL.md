@@ -38,6 +38,22 @@ Duración: [X meses / X clases]
 Grados: [X° EBI / ESO / PAI]
 ```
 
+### Índice (TOC)
+
+```
+1. Introducción ......................................... 3
+2. Justificación ........................................ 4
+3. Objetivos Generales .................................. 5
+4. Objetivos Específicos ................................ 6
+5. Metodología .......................................... 7
+6. Evaluación ........................................... 8
+7. Estructura por Grados ................................ 9
+8. Resumen de Entregables .............................. 11
+9. Cronograma .......................................... 12
+10. Recursos ........................................... 13
+11. Bibliografía ........................................ 14
+```
+
 ### Secciones
 
 1. **Introducción** — Contexto, propósito del programa, qué aprenderán y por qué es relevante.
@@ -89,6 +105,24 @@ Duración: [X meses]
 Grados: [X° EBI / ESO / PAI]
 ```
 
+### Índice (TOC)
+
+```
+1. Justificación del Proyecto ........................... 3
+2. Objetivo General ..................................... 4
+3. Objetivos Específicos ................................ 4
+4. Asignaturas Transversales ............................ 5
+5. Surgencia del Proyecto ............................... 6
+6. Metodología .......................................... 6
+7. Planificación ........................................ 7
+8. Actividades .......................................... 8
+9. Evaluaciones ......................................... 9
+10. Elaboración de Productos Intermedios ............... 10
+11. Adaptaciones ........................................ 12
+12. Anexos .............................................. 13
+13. Conclusiones ........................................ 13
+```
+
 ### Secciones
 
 1. **Justificación del Proyecto** — Oportunidad de aplicar conocimientos en contexto real, habilidades siglo XXI, trabajo colaborativo.
@@ -135,6 +169,22 @@ Duración: [X meses]
 Grados: [X° EBI / ESO / PAI]
 ```
 
+### Índice (TOC)
+
+```
+1. Justificación ........................................ 3
+2. Objetivo General ..................................... 4
+3. Objetivos Específicos ................................ 4
+4. Asignaturas Transversales ............................ 5
+5. Surgencia / Disparador ............................... 6
+6. Evaluaciones ......................................... 7
+7. Elaboración de Productos Intermedios ................. 8
+8. Esquemas de Aprendizaje ............................. 10
+9. Actividades de Investigación ........................ 12
+10. Adaptaciones ........................................ 13
+11. Anexos .............................................. 14
+```
+
 ### Secciones
 
 1. **Justificación**
@@ -162,6 +212,22 @@ Título del Proyecto
 Integrantes:
 Grupo:
 Fecha:
+```
+
+### Índice (TOC)
+
+```
+1. Portada .............................................. 1
+2. Índice ............................................... 2
+3. Resumen Ejecutivo .................................... 3
+4. Introducción ......................................... 4
+5. Memoria .............................................. 6
+6. Metodología .......................................... 8
+7. Desarrollo del Proyecto .............................. 9
+8. Análisis de Resultados .............................. 11
+9. Conclusiones ........................................ 12
+10. Bibliografía ........................................ 13
+11. Anexos .............................................. 14
 ```
 
 ### Secciones
@@ -211,6 +277,15 @@ Fecha:
 Presupuesto [Proyecto] [Año]
 ```
 
+### Índice (TOC)
+
+```
+1. Compra Internacional (USD) ............................ 1
+2. Compra Nacional (moneda local) ........................ 2
+3. Extras y Consumibles .................................. 3
+4. Resumen Total ......................................... 4
+```
+
 ### Formato de tabla
 
 | Componente | Proveedor | Cantidad | $/unidad | Total |
@@ -241,6 +316,22 @@ Presupuesto [Proyecto] [Año]
 Guía [Año]: Espacios de Fabricación Digital en Centros Educativos
 Sugerencias para el diseño e implementación de espacios maker
 Autor: [Nombre]
+```
+
+### Índice (TOC)
+
+```
+1. Introducción ......................................... 3
+2. Justificación ........................................ 4
+3. Objetivos ............................................ 5
+4. Planificación y Diseño del Espacio .................... 6
+5. Estrategias de Organización ........................... 8
+6. Lista Básica de Herramientas .......................... 9
+7. Herramientas y Tecnologías ........................... 10
+8. Impacto de las Herramientas de Fabricación Digital ... 11
+9. Expansión Gradual del MAKESpace ...................... 12
+10. Compromiso de las Autoridades ....................... 13
+11. Conclusión ......................................... 14
 ```
 
 ### Secciones
