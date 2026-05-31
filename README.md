@@ -147,7 +147,7 @@ El documento completo generado incluye: introducción, justificación, objetivos
 
 ## Tecnología
 
-EduCraft es una skill compatible con **OpenCode**, **Claude Code**, **OpenClaw** y **ClawCode**. Se instala como un archivo `SKILL.md` en el directorio de skills del asistente.
+EduCraft es una skill compatible con **OpenCode**, **OpenClaw** y **ClawCode**. Se instala como un archivo `SKILL.md` en el directorio de skills del asistente.
 
 | | |
 |---|---|
