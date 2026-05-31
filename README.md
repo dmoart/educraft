@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="EduCraft Banner">
+  <img src="assets/banner.svg" alt="EduCraft Banner">
 </p>
 
 <p align="center">
