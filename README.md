@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>EduCraft</strong> es una skill para <a href="https://opencode.ai">OpenCode</a> que acelera la creación de proyectos educativos STEAM con inteligencia artificial.
+  <strong>EduCraft</strong> es una skill para <strong>OpenCode</strong>, <strong>Claude Code</strong>, <strong>OpenClaw</strong> y <strong>ClawCode</strong> que acelera la creación de proyectos educativos STEAM con inteligencia artificial.
   Basada en <strong>ABP</strong> (Aprendizaje Basado en Proyectos) y alineada al <strong>Marco Curricular Nacional (MCN 2022)</strong>,
   genera programas, guías docentes, memorias técnicas, presupuestos y diseños de espacios maker en segundos.
 </p>
@@ -62,24 +62,29 @@ educraft/
 
 ## Instalación
 
-### 1. Instalar OpenCode
+### 1. Instalar un asistente
 
-Seguí la [guía oficial de instalación](https://opencode.ai/docs) para tu sistema operativo.
+EduCraft funciona con cualquier asistente que soporte `SKILL.md`:
+
+| Herramienta | Instalación |
+|---|---|
+| **OpenCode** | `curl -fsSL https://opencode.ai/install \| bash` |
+| **Claude Code** | `npm install -g @anthropic/claude-code` |
+| **OpenClaw / ClawCode** | Según documentación del proyecto |
 
 ### 2. Instalar EduCraft
 
 ```bash
-# Opción A — Clonar el repositorio
+# Clonar el repositorio
 git clone https://github.com/dmoart/educraft.git
-copy educraft\skills\educraft %USERPROFILE%\.claude\skills\educraft\
 
-# Opción B — Manual
-# Copiá skills/educraft/SKILL.md a %USERPROFILE%\.claude\skills\educraft\SKILL.md
+# Copiar la skill (ruta única para todos los asistentes)
+copy educraft\skills\educraft %USERPROFILE%\.claude\skills\educraft\
 ```
 
 ### 3. Usar
 
-Abrí OpenCode en cualquier proyecto y escribí:
+Abrí tu asistente en cualquier proyecto y escribí:
 
 ```
 /educraft programa para robótica con Micro:bit, tramo 5, 8° EBI, duración 6 meses
@@ -142,13 +147,14 @@ El documento completo generado incluye: introducción, justificación, objetivos
 
 ## Tecnología
 
-EduCraft es una skill para [OpenCode](https://opencode.ai), el asistente de codificación con IA de código abierto que soporta más de 75 proveedores de LLM (Anthropic, OpenAI, Google, Mistral, Ollama, etc.).
+EduCraft es una skill compatible con **OpenCode**, **Claude Code**, **OpenClaw** y **ClawCode**. Se instala como un archivo `SKILL.md` en el directorio de skills del asistente.
 
 | | |
 |---|---|
-| Estructura | `SKILL.md` con frontmatter YAML |
+| Formato | `SKILL.md` con frontmatter YAML (estándar multiplataforma) |
+| Compatible con | OpenCode, Claude Code, OpenClaw, ClawCode |
 | Licencia | MIT |
-| Hecho con | OpenCode, Markdown, pedagogía STEAM |
+| Hecho con | Markdown, pedagogía STEAM, pensamiento computacional |
 
 ---
 

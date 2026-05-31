@@ -2,23 +2,23 @@
 
 ## Instalación en 2 pasos
 
-### 1. Instalar OpenCode
+### 1. Instalar el asistente
 
-```bash
-# Windows (PowerShell)
-curl -fsSL https://opencode.ai/install | bash
+Elegí el que uses:
 
-# Verificar instalación
-opencode --version
-```
+| Herramienta | Comando de instalación |
+|---|---|
+| **OpenCode** | `curl -fsSL https://opencode.ai/install \| bash` |
+| **Claude Code** | `npm install -g @anthropic/claude-code` |
+| **OpenClaw / ClawCode** | Según documentación del proyecto |
 
 ### 2. Instalar EduCraft
 
 ```bash
-# Clonar el repositorio y copiar la skill
+# Clonar el repositorio
 git clone https://github.com/dmoart/educraft.git
 
-# Copiar al directorio de skills de OpenCode
+# Copiar la skill (funciona en todos los asistentes que usen SKILL.md)
 copy educraft\skills\educraft %USERPROFILE%\.claude\skills\educraft\
 ```
 
